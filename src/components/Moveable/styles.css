@@ -1,0 +1,28 @@
+.moveable-card {
+    position: absolute;
+    min-width: 100px;
+    min-height: 100px;
+
+    width: 250px;
+    height: 250px;
+
+    max-width: 500px;
+    max-height: 500px;
+
+    border-radius: 10px;
+
+    background: var(--color-primary);
+
+    resize: both;
+    overflow: auto;
+}
+
+.moveable {
+    position: relative;
+    top: 5px;
+    left: 1px;
+}
+
+.moveable:hover {
+    cursor: grab;
+}
